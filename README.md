@@ -1,14 +1,3 @@
-# Lab 2: Kafka for Data Streaming
-
-In this lab, you will gain hands-on experience with Apache Kafka, a distributed streaming platform that plays a key role in processing large-scale real-time data. You will establish a connection to a Kafka broker, produce and consume messages, and explore Kafka command-line tools. This lab will prepare you for your group project, where you'll work with Kafka streams. 
-
-To receive credit for this lab, show your work to the TA during recitation.
-
-## Deliverables
-- [ ] Establish a secure SSH tunnel to the Kafka server. Explain to the TA the concepts of topic and offsets in Kafka and how this ensures message continuity if a consumer is disconnected.
-- [ ] Modify starter code to implement producer and consumer modes for a Kafka topic.
-- [ ] Demonstrate using Kafka's CLI tool *kcat* (or alternatives) to manage and monitor Kafka topics and messages.
-
 
 ## Getting started
 - Clone the starter code from this Git repository.
@@ -42,10 +31,6 @@ Using the kcat documentation, write a command that connects to the local Kafka b
 Ref:\
   [kcat usage](https://docs.confluent.io/platform/current/app-development/kafkacat-usage.html)  
   [kcat GitHub](https://github.com/edenhill/kcat)   
-
-## Optional but Recommended
-For your group project you will be reading movies from the Kafka stream. Try finding the list of all topics and then read some movielog streams to get an idea of what the data looks like:  
-`kcat -b localhost:9092 -L`
 
 ## Additional resources
 - [Kafka Introduction Video 1](https://www.youtube.com/watch?v=PzPXRmVHMxI) <- Recommended video for a quick 5-min introduction to Kafka
